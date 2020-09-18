@@ -9,6 +9,6 @@ jobs:
       - name: Build Docker image
         run: docker build --pull -t test .
       - name: Test Docker image
-        run: docker run test
+        run: docker run test -d
       - name: Inspect Docker image
         run: docker image inspect test
