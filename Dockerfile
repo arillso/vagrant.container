@@ -1,4 +1,4 @@
-FROM arillso/ansible:2.9.9
+FROM arillso/ansible:2.10.3
 
 LABEL "maintainer"="Simon Baerlocher <s.baerlocher@sbaerlocher.ch>" \
 	"org.opencontainers.image.authors"="Simon Baerlocher <s.baerlocher@sbaerlocher.ch>" \
